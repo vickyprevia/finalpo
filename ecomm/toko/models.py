@@ -4,9 +4,9 @@ from django.db import models
 from django.urls import reverse
 
 PILIHAN_KATEGORI = (
-    ('MX', 'iPhone Pro Max'),
-    ('PR', 'iPhone Pro'),
-    ('IP', 'iPhone')
+    ('IP', 'iPhone'),
+    ('ID', 'iPad'),
+    ('MB', 'Macbook')
 )
 
 PILIHAN_LABEL = (
