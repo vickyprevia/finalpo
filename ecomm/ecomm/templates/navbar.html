@@ -47,6 +47,7 @@
         <!-- Right elements -->
         <div class="d-flex align-items-center">
             {% if request.user.is_authenticated %}
+                <p>Hi, <strong>{{ user }}!</strong></p>
                 <!-- Icon -->
                 <a class="nav-link me-3" href="{% url 'toko:order-summary' %}">
                     <i class="fas fa-shopping-cart"></i>

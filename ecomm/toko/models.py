@@ -5,8 +5,8 @@ from django.urls import reverse
 
 PILIHAN_KATEGORI = (
     ('IP', 'iPhone'),
-    ('IA', 'iPad'),
-    ('MB', 'Macbook')
+    ('ID', 'iPad'),
+    ('MB', 'Macbook'),
 )
 
 PILIHAN_LABEL = (
