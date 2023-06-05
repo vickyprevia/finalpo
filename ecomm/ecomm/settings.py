@@ -196,16 +196,16 @@ if DEBUG is False:
     ALLOWED_HOSTS = ['www.domain-kita.com']
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'db_name',
-            'USER': 'db_user',
-            'PASSWORD': 'db_password',
-            'HOST': 'www.domain-kita.com',
-            'PORT': '5432',
-        }
-    }
+#    DATABASES = {
+#        'default': {
+#            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#            'NAME': 'db_name',
+#            'USER': 'db_user',
+#            'PASSWORD': 'db_password',
+#            'HOST': 'www.domain-kita.com',
+#            'PORT': '5432',
+#        }
+#    }
 
     PAYPAL_CLIENT_ID = env('PAYPAL_LIVE_CLIENT_ID')
     PAYPAL_SECRET_ID = env('PAYPAL_LIVE_SECRET_ID')
